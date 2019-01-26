@@ -158,6 +158,8 @@ namespace Kalkulator
                 case (char)53:
                 case (char)54:
                 case (char)55:
+                case (char)56:
+                case (char)57:
                     add(e.KeyChar.ToString());
                     e.Handled = true;
                     break;
